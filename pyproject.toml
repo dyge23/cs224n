@@ -1,0 +1,32 @@
+[project]
+name = "cs224n"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets==2.18.0",
+    "docopt",
+    "einops>=0.6.0",
+    "gensim",
+    "google-genai",
+    "huggingface_hub>=0.14.0",
+    "ipykernel",
+    "jaxtyping>=0.2.0",
+    "jupyter",
+    "lxml==5.0.0",
+    "matplotlib>=3.7.0",
+    "nltk",
+    "numpy>=1.24.0",
+    "openai",
+    "pydantic",
+    "pytest>=7.3.0",
+    "python-dotenv",
+    "requests",
+    "sacrebleu",
+    "scikit-learn",
+    "scipy",
+    "sentencepiece",
+    "tensorboard",
+    "torch>=2.0.0",
+    "tqdm>=4.62.1",
+    "transformers>=4.30.0",
+]

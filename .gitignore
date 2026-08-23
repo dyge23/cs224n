@@ -1,0 +1,34 @@
+.venv
+.kilo
+.pi/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.weights
+*.params
+
+# Prediction / evaluation outputs
+*.predictions
+
+# Logs and experiment artifacts
+*.log
+events.out.tfevents*
+expt/
+
+*.pdf
+
+!**/tests/snapshots/
+!**/tests/snapshots/*
+
+.ruff_cache
+ruff.toml
+__pycache__
+.pytest_cache/
+
+uv.lock
+
+a4/outputs/
+a4/runs/
+a4/model.bin*
+.ipynb_checkpoints/
